@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		927B72B12F005094009FEFE9 /* TareasAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B72B02F005094009FEFE9 /* TareasAppApp.swift */; };
+		927B72B32F005094009FEFE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B72B22F005094009FEFE9 /* ContentView.swift */; };
+		927B72B52F005096009FEFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927B72B42F005096009FEFE9 /* Assets.xcassets */; };
+		927B72B82F005096009FEFE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927B72B72F005096009FEFE9 /* Preview Assets.xcassets */; };
+		927B72BF2F0052E1009FEFE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 927B72BE2F0052E1009FEFE9 /* GoogleService-Info.plist */; };
+		927B72C22F0059B3009FEFE9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 927B72C12F0059B3009FEFE9 /* FirebaseFirestore */; };
+		927B72C42F0059B3009FEFE9 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 927B72C32F0059B3009FEFE9 /* FirebaseFirestoreSwift */; };
+		927B72C72F006076009FEFE9 /* Tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B72C62F006075009FEFE9 /* Tarea.swift */; };
+		927B72CA2F0060B3009FEFE9 /* TareasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B72C92F0060B3009FEFE9 /* TareasViewModel.swift */; };
+		927B72CF2F0060C5009FEFE9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B72CC2F0060C5009FEFE9 /* MainTabView.swift */; };
+		927B72D02F0060C5009FEFE9 /* NuevaTareaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B72CD2F0060C5009FEFE9 /* NuevaTareaView.swift */; };
+		927B72D12F0060C5009FEFE9 /* MisTareasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B72CE2F0060C5009FEFE9 /* MisTareasView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		927B72AD2F005094009FEFE9 /* TareasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927B72B02F005094009FEFE9 /* TareasAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareasAppApp.swift; sourceTree = "<group>"; };
+		927B72B22F005094009FEFE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		927B72B42F005096009FEFE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		927B72B72F005096009FEFE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		927B72BE2F0052E1009FEFE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		927B72C62F006075009FEFE9 /* Tarea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tarea.swift; sourceTree = "<group>"; };
+		927B72C92F0060B3009FEFE9 /* TareasViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TareasViewModel.swift; sourceTree = "<group>"; };
+		927B72CC2F0060C5009FEFE9 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		927B72CD2F0060C5009FEFE9 /* NuevaTareaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevaTareaView.swift; sourceTree = "<group>"; };
+		927B72CE2F0060C5009FEFE9 /* MisTareasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisTareasView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		927B72AA2F005094009FEFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927B72C22F0059B3009FEFE9 /* FirebaseFirestore in Frameworks */,
+				927B72C42F0059B3009FEFE9 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		927B72A42F005094009FEFE9 = {
+			isa = PBXGroup;
+			children = (
+				927B72AF2F005094009FEFE9 /* TareasApp */,
+				927B72AE2F005094009FEFE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		927B72AE2F005094009FEFE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				927B72AD2F005094009FEFE9 /* TareasApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		927B72AF2F005094009FEFE9 /* TareasApp */ = {
+			isa = PBXGroup;
+			children = (
+				927B72CB2F0060C5009FEFE9 /* Views */,
+				927B72C82F0060B3009FEFE9 /* ViewModels */,
+				927B72C52F006075009FEFE9 /* Models */,
+				927B72BE2F0052E1009FEFE9 /* GoogleService-Info.plist */,
+				927B72B02F005094009FEFE9 /* TareasAppApp.swift */,
+				927B72B22F005094009FEFE9 /* ContentView.swift */,
+				927B72B42F005096009FEFE9 /* Assets.xcassets */,
+				927B72B62F005096009FEFE9 /* Preview Content */,
+			);
+			path = TareasApp;
+			sourceTree = "<group>";
+		};
+		927B72B62F005096009FEFE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				927B72B72F005096009FEFE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		927B72C52F006075009FEFE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				927B72C62F006075009FEFE9 /* Tarea.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		927B72C82F0060B3009FEFE9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				927B72C92F0060B3009FEFE9 /* TareasViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		927B72CB2F0060C5009FEFE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				927B72CC2F0060C5009FEFE9 /* MainTabView.swift */,
+				927B72CD2F0060C5009FEFE9 /* NuevaTareaView.swift */,
+				927B72CE2F0060C5009FEFE9 /* MisTareasView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		927B72AC2F005094009FEFE9 /* TareasApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927B72BB2F005096009FEFE9 /* Build configuration list for PBXNativeTarget "TareasApp" */;
+			buildPhases = (
+				927B72A92F005094009FEFE9 /* Sources */,
+				927B72AA2F005094009FEFE9 /* Frameworks */,
+				927B72AB2F005094009FEFE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TareasApp;
+			packageProductDependencies = (
+				927B72C12F0059B3009FEFE9 /* FirebaseFirestore */,
+				927B72C32F0059B3009FEFE9 /* FirebaseFirestoreSwift */,
+			);
+			productName = TareasApp;
+			productReference = 927B72AD2F005094009FEFE9 /* TareasApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		927B72A52F005094009FEFE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					927B72AC2F005094009FEFE9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 927B72A82F005094009FEFE9 /* Build configuration list for PBXProject "TareasApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 927B72A42F005094009FEFE9;
+			packageReferences = (
+				927B72C02F0059B3009FEFE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 927B72AE2F005094009FEFE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				927B72AC2F005094009FEFE9 /* TareasApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		927B72AB2F005094009FEFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927B72B82F005096009FEFE9 /* Preview Assets.xcassets in Resources */,
+				927B72B52F005096009FEFE9 /* Assets.xcassets in Resources */,
+				927B72BF2F0052E1009FEFE9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		927B72A92F005094009FEFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927B72D02F0060C5009FEFE9 /* NuevaTareaView.swift in Sources */,
+				927B72CA2F0060B3009FEFE9 /* TareasViewModel.swift in Sources */,
+				927B72B32F005094009FEFE9 /* ContentView.swift in Sources */,
+				927B72B12F005094009FEFE9 /* TareasAppApp.swift in Sources */,
+				927B72D12F0060C5009FEFE9 /* MisTareasView.swift in Sources */,
+				927B72C72F006076009FEFE9 /* Tarea.swift in Sources */,
+				927B72CF2F0060C5009FEFE9 /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		927B72B92F005096009FEFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		927B72BA2F005096009FEFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		927B72BC2F005096009FEFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TareasApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.pe.cibertec.TareasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		927B72BD2F005096009FEFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TareasApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.pe.cibertec.TareasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		927B72A82F005094009FEFE9 /* Build configuration list for PBXProject "TareasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927B72B92F005096009FEFE9 /* Debug */,
+				927B72BA2F005096009FEFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927B72BB2F005096009FEFE9 /* Build configuration list for PBXNativeTarget "TareasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927B72BC2F005096009FEFE9 /* Debug */,
+				927B72BD2F005096009FEFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		927B72C02F0059B3009FEFE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		927B72C12F0059B3009FEFE9 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927B72C02F0059B3009FEFE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		927B72C32F0059B3009FEFE9 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927B72C02F0059B3009FEFE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 927B72A52F005094009FEFE9 /* Project object */;
+}

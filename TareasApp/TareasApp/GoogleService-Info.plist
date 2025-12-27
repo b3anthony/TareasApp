@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyA2gGF9WqRer9TYdqJ7BX6vMaxOeJpbfA8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>446188754194</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.pe.cibertec.TareasApp</string>
+	<key>PROJECT_ID</key>
+	<string>ef-tareasapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ef-tareasapp.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:446188754194:ios:9d54bc8fb7934006404fcb</string>
+</dict>
+</plist>
